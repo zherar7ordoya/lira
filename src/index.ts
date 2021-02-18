@@ -22,9 +22,7 @@ const server = new ApolloServer({
 server.applyMiddleware({ app });
 
 app.get("/", (req, res) => {
-  res.send(
-    '<p><a href="http://localhost:5000/graphql">Cliente GraphQL</a></p>\n'
-  );
+  res.send('<p><a href="/graphql">Cliente GraphQL</a></p>\n');
 });
 
 app.listen(config.port, () => {
