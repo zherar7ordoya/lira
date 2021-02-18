@@ -1,5 +1,5 @@
 {
-  "name": "backend",
+  "name": "lira-backend",
   "version": "1.0.0",
   "description": "Aprende a crear una API con GraphQL, Node y TypeScript. Almacena tus datos en una base de datos de MongoDB y despliégala en Vercel hacia producción. Crea un frontend con React y Apollo Client para consumirla.",
   "main": "index.js",
